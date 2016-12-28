@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		76DF34BD1E146E920052CCEF /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 76DF34BC1E146E920052CCEF /* README.md */; };
 		OBJ_145 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Logger.swift */; };
 		OBJ_152 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Socket.swift */; };
 		OBJ_153 /* SocketProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* SocketProtocols.swift */; };
@@ -438,6 +437,7 @@
 
 /* Begin PBXFileReference section */
 		76DF34BC1E146E920052CCEF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		76DF34BE1E1470C70052CCEF /* .swift-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
 		OBJ_100 /* Part.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Part.swift; sourceTree = "<group>"; };
 		OBJ_101 /* RawBodyParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawBodyParser.swift; sourceTree = "<group>"; };
 		OBJ_102 /* TextBodyParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBodyParser.swift; sourceTree = "<group>"; };
@@ -864,6 +864,7 @@
 		OBJ_5 /*  */ = {
 			isa = PBXGroup;
 			children = (
+				76DF34BE1E1470C70052CCEF /* .swift-version */,
 				OBJ_6 /* Package.swift */,
 				76DF34BC1E146E920052CCEF /* README.md */,
 				OBJ_7 /* Sources */,
@@ -1285,7 +1286,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				76DF34BD1E146E920052CCEF /* README.md in Sources */,
 				OBJ_145 /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
