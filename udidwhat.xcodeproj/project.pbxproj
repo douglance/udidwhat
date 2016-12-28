@@ -438,6 +438,7 @@
 /* Begin PBXFileReference section */
 		76DF34BC1E146E920052CCEF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		76DF34BE1E1470C70052CCEF /* .swift-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
+		76DF34BF1E1472AA0052CCEF /* Procfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Procfile; sourceTree = "<group>"; };
 		OBJ_100 /* Part.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Part.swift; sourceTree = "<group>"; };
 		OBJ_101 /* RawBodyParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawBodyParser.swift; sourceTree = "<group>"; };
 		OBJ_102 /* TextBodyParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBodyParser.swift; sourceTree = "<group>"; };
@@ -864,6 +865,7 @@
 		OBJ_5 /*  */ = {
 			isa = PBXGroup;
 			children = (
+				76DF34BF1E1472AA0052CCEF /* Procfile */,
 				76DF34BE1E1470C70052CCEF /* .swift-version */,
 				OBJ_6 /* Package.swift */,
 				76DF34BC1E146E920052CCEF /* README.md */,
