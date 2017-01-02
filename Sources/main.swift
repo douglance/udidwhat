@@ -48,5 +48,8 @@ router.get("/contact") {
 	try response.render("contact", context: [:])
 }
 
-Kitura.addHTTPServer(onPort: 8090, with: router)
+
+let port = Int(ProcessInfo.processInfo.environment["PORT"] ?? "8090") ?? 8090
+
+Kitura.addHTTPServer(onPort: port, with: router)
 Kitura.run()
