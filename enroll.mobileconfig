@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadContent</key>
+		<dict>
+			<key>URL</key>
+			<string>http://support.devcorp.com/uuid/returnurl/</string>
+			<key>DeviceAttributes</key>
+			<array>
+				<string>DEVICE_NAME</string>
+				<string>UDID</string>
+				<string>PRODUCT</string>
+				<string>VERSION</string>
+				<string>SERIAL</string>
+			</array>
+		</dict>
+		<key>PayloadOrganization</key>
+		<string>DevCorp Inc.</string>
+		<key>PayloadDisplayName</key>
+		<string>Profile Service</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>PayloadUUID</key>
+		<string>C5FB9D0D-0BE7-4F98-82CC-5D0EA74F8CF8</string> <!-- any random UUID -->
+		<key>PayloadIdentifier</key>
+		<string>com.devcorp.profile-service</string>
+		<key>PayloadDescription</key>
+		<string>This is a temporary profile to enroll your device for ad-hoc app distribution</string>
+		<key>PayloadType</key>
+		<string>Profile Service</string>
+	</dict>
+</plist>
