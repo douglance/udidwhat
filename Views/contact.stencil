@@ -4,5 +4,5 @@
 
 {% block body %}
 <h1>Get in touch</h1>
-<p>Call us on 555-1234.</p>
+<p>Email doug.lance@gmail.com</p>
 {% endblock %}

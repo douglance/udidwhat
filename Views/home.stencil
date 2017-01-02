@@ -1,9 +1,9 @@
 {% extends "master.stencil" %}
 
 {% block body %}
-<h1>Welcome to Million Hairs</h1>
-<p>We provide best-in-class health and wellbeing for all sorts of animals. But mostly beagles.</p>
-<p><a class="btn btn-lg btn-primary" href="/contact" role="button">Call us now &raquo;</a></p>
+<h1>UDID What?</h1>
+<p>Input your name and email below to send us your UDID for this phone. You are on an iPhone right? If you're not on an iPhone it isn't really going to work. Send this page to your phone and try again.</p>
+<p><a class="btn btn-lg btn-primary" href="/enroll.mobileconfig" role="button">Send UDID &raquo;</a></p>
 {% endblock %}
 
 {% block title %}Welcome{% endblock %}
