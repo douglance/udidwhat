@@ -551,7 +551,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		769C0D021E1AF269002B5349 /* enroll.mobileconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = enroll.mobileconfig; sourceTree = "<group>"; };
+		769C0D021E1AF269002B5349 /* enroll.mobileconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = enroll.mobileconfig; path = ../enroll.mobileconfig; sourceTree = "<group>"; };
 		769C0D031E1AF269002B5349 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		769C0D041E1AF269002B5349 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		769C0D051E1AF269002B5349 /* Procfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Procfile; sourceTree = "<group>"; };
@@ -568,8 +568,8 @@
 		769C0D151E1AF3AA002B5349 /* glyphicons-halflings-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "glyphicons-halflings-regular.ttf"; sourceTree = "<group>"; };
 		769C0D161E1AF3AA002B5349 /* glyphicons-halflings-regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "glyphicons-halflings-regular.woff"; sourceTree = "<group>"; };
 		769C0D171E1AF3AA002B5349 /* glyphicons-halflings-regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "glyphicons-halflings-regular.woff2"; sourceTree = "<group>"; };
-		769C0D191E1AF3AA002B5349 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		769C0D1B1E1AF3AA002B5349 /* bootstrap.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bootstrap.min.js; sourceTree = "<group>"; };
+		769C0D1C1E1AFC6E002B5349 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		OBJ_100 /* Part.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Part.swift; sourceTree = "<group>"; };
 		OBJ_101 /* RawBodyParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawBodyParser.swift; sourceTree = "<group>"; };
 		OBJ_102 /* TextBodyParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBodyParser.swift; sourceTree = "<group>"; };
@@ -896,6 +896,7 @@
 		769C0D0E1E1AF3AA002B5349 /* public */ = {
 			isa = PBXGroup;
 			children = (
+				769C0D021E1AF269002B5349 /* enroll.mobileconfig */,
 				769C0D0F1E1AF3AA002B5349 /* css */,
 				769C0D121E1AF3AA002B5349 /* fonts */,
 				769C0D181E1AF3AA002B5349 /* images */,
@@ -928,7 +929,7 @@
 		769C0D181E1AF3AA002B5349 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				769C0D191E1AF3AA002B5349 /* logo.png */,
+				769C0D1C1E1AFC6E002B5349 /* logo.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -1193,7 +1194,6 @@
 				OBJ_7 /* Sources */,
 				OBJ_156 /* Tests */,
 				OBJ_161 /* Products */,
-				769C0D021E1AF269002B5349 /* enroll.mobileconfig */,
 				769C0D031E1AF269002B5349 /* README.md */,
 				769C0D041E1AF269002B5349 /* LICENSE */,
 				769C0D051E1AF269002B5349 /* Procfile */,

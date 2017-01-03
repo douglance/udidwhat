@@ -5,7 +5,7 @@
 		<key>PayloadContent</key>
 		<dict>
 			<key>URL</key>
-			<string>http://support.devcorp.com/uuid/returnurl/</string>
+			<string>https://udidwhat.herokuapp.com/return/</string>
 			<key>DeviceAttributes</key>
 			<array>
 				<string>DEVICE_NAME</string>
@@ -16,7 +16,7 @@
 			</array>
 		</dict>
 		<key>PayloadOrganization</key>
-		<string>DevCorp Inc.</string>
+		<string>UDIDWhat</string>
 		<key>PayloadDisplayName</key>
 		<string>Profile Service</string>
 		<key>PayloadVersion</key>
@@ -24,7 +24,7 @@
 		<key>PayloadUUID</key>
 		<string>C5FB9D0D-0BE7-4F98-82CC-5D0EA74F8CF8</string> <!-- any random UUID -->
 		<key>PayloadIdentifier</key>
-		<string>com.devcorp.profile-service</string>
+		<string>com.herokuapp.udidwhat</string>
 		<key>PayloadDescription</key>
 		<string>This is a temporary profile to enroll your device for ad-hoc app distribution</string>
 		<key>PayloadType</key>
