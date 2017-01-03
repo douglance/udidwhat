@@ -34,6 +34,21 @@ router.get("/contact") {
 	try response.render("contact", context: [:])
 }
 
+router.post("/udid") {
+	request, response, next in
+	defer { next() }
+	
+	print(request.parameters)
+	
+//	let deviceName = ["DEVICE_NAME" : DEVICE_NAME ]
+//	let udid = ["UDID" : UDID ]
+//	let product = ["PRODUCT"]
+//	let version = request.
+//	let serial
+	
+	try response.render("home", context: [:])
+}
+
 
 let port = Int(ProcessInfo.processInfo.environment["PORT"] ?? "8090") ?? 8090
 
