@@ -5,7 +5,7 @@
 		<key>PayloadContent</key>
 		<dict>
 			<key>URL</key>
-			<string>https://udidwhat.herokuapp.com/udid</string>
+			<string>https://udidwhat.herokuapp.com/udid/</string>
 			<key>DeviceAttributes</key>
 			<array>
 				<string>DEVICE_NAME</string>
