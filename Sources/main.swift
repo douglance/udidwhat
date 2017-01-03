@@ -21,11 +21,7 @@ router.get("/static/:file") {
 	request, response, next in
 	defer { next() }
 	guard let file = request.parameters["file"] else { return }
-//	try response.type("Content-Type", value: "application/x-apple-aspen-config")
-	let type = ContentType.sharedInstance.getContentType(forFileName: file)
-	print(type)
 	try response.send(download: file)
-	
 }
 
 router.get("/contact") {
@@ -37,8 +33,10 @@ router.get("/contact") {
 router.post("/udid") {
 	request, response, next in
 	defer { next() }
-	
-	print(request.queryParameters)
+	print("request: \(request)")
+	print("Query params:\(request.queryParameters)")
+	print("parsedbody: \(request.body)")
+//	var requestDict = NSDictionary(contentsOfFile: request.body as? String)
 	
 //	let deviceName = ["DEVICE_NAME" : DEVICE_NAME ]
 //	let udid = ["UDID" : UDID ]
@@ -46,7 +44,7 @@ router.post("/udid") {
 //	let version = request.
 //	let serial
 	
-	try response.render("home", context: [:])
+//	try response.render("home", context: [:])
 }
 
 
