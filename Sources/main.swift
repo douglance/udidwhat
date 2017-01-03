@@ -17,10 +17,14 @@ router.get("/") {
 	try response.render("home", context: [:])
 }
 
-router.get("/static/enroll.mobileconfig") {
+router.get("/static/:file") {
 	request, response, next in
 	defer { next() }
-	try response.send(download: "/static/enroll.mobileconfig")
+	guard let file = request.parameters["file"] else { return }
+//	try response.type("Content-Type", value: "application/x-apple-aspen-config")
+	let type = ContentType.sharedInstance.getContentType(forFileName: file)
+	print(type)
+	try response.send(download: file)
 	
 }
 

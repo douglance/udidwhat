@@ -551,7 +551,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		769C0D021E1AF269002B5349 /* enroll.mobileconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = enroll.mobileconfig; path = ../enroll.mobileconfig; sourceTree = "<group>"; };
+		7624DB611E1C09F100B416D0 /* enroll.mobileconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = enroll.mobileconfig; sourceTree = "<group>"; };
 		769C0D031E1AF269002B5349 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		769C0D041E1AF269002B5349 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		769C0D051E1AF269002B5349 /* Procfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Procfile; sourceTree = "<group>"; };
@@ -896,7 +896,7 @@
 		769C0D0E1E1AF3AA002B5349 /* public */ = {
 			isa = PBXGroup;
 			children = (
-				769C0D021E1AF269002B5349 /* enroll.mobileconfig */,
+				7624DB611E1C09F100B416D0 /* enroll.mobileconfig */,
 				769C0D0F1E1AF3AA002B5349 /* css */,
 				769C0D121E1AF3AA002B5349 /* fonts */,
 				769C0D181E1AF3AA002B5349 /* images */,
