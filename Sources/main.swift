@@ -38,7 +38,7 @@ router.post("/udid") {
 	request, response, next in
 	defer { next() }
 	
-	print(request.parameters)
+	print(request.queryParameters)
 	
 //	let deviceName = ["DEVICE_NAME" : DEVICE_NAME ]
 //	let udid = ["UDID" : UDID ]
